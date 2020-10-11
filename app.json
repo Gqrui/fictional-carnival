@@ -1,0 +1,16 @@
+{
+  "pages":[
+    "pages/login/login",
+    "pages/login-try/login-try",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#a3d3d6",
+    "navigationBarTitleText": "SCU掌上兼职",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
