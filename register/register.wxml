@@ -1,0 +1,27 @@
+<!--pages/register/register.wxml-->
+<view class="container">
+   <view class="logo">
+     <image class="logo-img" src="/statics/image/login_icon.jpg"></image>
+   </view>
+
+    <view class="logincontent">
+       <!--学号-->
+       <view class="inputView">
+         <label class="loginLab">学号</label> 
+         <input value="{{stuNum}}" class="inputText" placeholder="请输入学号" bindinput="stunumInput" />
+       </view>
+
+  <!--密码-->
+  <view class="inputView"> 
+   <label class="loginLab">密码</label> 
+   <input value="{{password}}" class="inputText" password="true" placeholder="请输入密码" bindinput="passwordInput" />
+  </view> 
+  <!--按钮-->
+ <view class="loginBtnView"> 
+   <button class="loginBtn"  size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="login">登录</button> 
+ </view> 
+ <view class="registerBtnView"> 
+   <button class="registerBtn"  size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="register">注册</button> 
+ </view> 
+</view>
+</view>

@@ -1,0 +1,96 @@
+/* pages/register/register.wxss */
+page{ 
+  height: 100%; 
+ } 
+
+ .container { 
+  height: 100%; 
+  display: flex; 
+  flex-direction: column; 
+  padding: 0; 
+  box-sizing: border-box; 
+  background-color: #F2F2F2
+ } 
+
+/*logo*/
+.logo{
+flex:none;
+}
+ .logo-img{ 
+  margin-top: 130rpx;
+  width: 130rpx; 
+  height: 130rpx;
+  border-radius: 65rpx;
+ } 
+ /*表单内容*/
+.logincontent { 
+  margin-top: 100rpx; 
+  height:100%; 
+ } 
+
+ .inputView { 
+  background-color: #fff; 
+  margin-top: 20rpx;
+  height: 100rpx;
+  width: 650rpx;
+  line-height: 100rpx; 
+  border-radius: 10rpx;
+ } 
+
+ /*输入框内部*/
+ .loginLab { 
+  margin: 30rpx 30rpx 30rpx 30rpx; 
+  color: #545454; 
+  font-size: 30rpx；
+ } 
+
+ .inputText { 
+  flex: block; 
+  float: right; 
+  text-align: right; 
+  margin-right: 22rpx; 
+  margin-top: 22rpx; 
+  color: #cccccc; 
+  font-size: 30rpx
+ } 
+
+ /*按钮*/
+
+.loginBtnView { 
+  width: 100%; 
+  height: auto; 
+  background-color: #f2f2f2; 
+  margin-top: 100rpx; 
+  margin-bottom: 0rpx; 
+  padding-bottom: 0rpx; 
+ } 
+
+ .registerBtnView {
+  width: 100%; 
+  height: auto; 
+  background-color: #f2f2f2; 
+  margin-top: 0rpx; 
+  margin-bottom: 0rpx; 
+  padding-bottom: 0rpx; 
+  border:none;
+ }
+
+ .registerBtn::after{
+  border:none;
+}
+
+.loginBtn { 
+ width: 80%; 
+ height: 100rpx;
+ background-color:#ffcc33;
+}
+
+.registerBtn { 
+ width: 80%; 
+ height:100rpx;
+ color:#ffcc33;
+ background-color: #f2f2f2;
+ margin-top: 35rpx; 
+ border:none;
+}
+ 
